@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f4f8;
+    font-family: Arial;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container{
+    background-color: white;
+    max-width: 500px;
+    /* margin: auto; */
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 12px rgba(0,0,0, 0.1);
+}
+h1{
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+input{
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border o.2s;
+}
+input:focus{
+    border-color: #2980b9;
+}
+button{
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover{
+    background-color: #1f6391;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+    cursor: pointer;
+     transition: background 0.2s;
+}
+ul li:hover{
+    background-color: #e8f4fd;
+}
+.completed{
+    text-decoration: line-through;
+    color: #aaaaaa;
+    background-color: #f0f0f0;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.delete-btn:hover{
+    background-color: #c0392b;
+}
+.empty-message{
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-top: 20px;
+}
